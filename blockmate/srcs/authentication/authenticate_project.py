@@ -5,7 +5,7 @@ import os
     Check if the token is right. Check if user exist
 """
 
-my_token = os.environ["my_token"]
+my_token = os.environ["blockmate_token"]
 
 url = "https://api.blockmate.io/v1/auth"
 

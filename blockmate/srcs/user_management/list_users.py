@@ -2,7 +2,7 @@ import requests
 import os
 
 # User inputs
-my_token = os.environ["my_token"]
+my_token = os.environ["blockmate_token"]
 
 # Send a request
 url = "https://api.blockmate.io/v1/users"

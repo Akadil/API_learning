@@ -2,7 +2,7 @@ import requests
 import os
 
 # The inputs:
-my_token = os.environ["my_token"]
+my_token = os.environ["blockmate_token"]
 name = None
 
 # Request
